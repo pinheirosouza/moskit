@@ -1,11 +1,27 @@
 {
   "name": "moskit",
   "version": "1.0.0",
-  "description": "Moskit connector Anota AI",
-  "main": "app.js",
+  "description": "Moskit Middleware V2 - Anota AI",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.31.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "@types/axios": "^0.14.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
